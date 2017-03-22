@@ -11,8 +11,7 @@ export default Ember.Component.extend({
         this.get('addBook')({ title });
       }
       this.set('value', "");  // reset value
-    }
-
+    },
   }
-  
+
 });

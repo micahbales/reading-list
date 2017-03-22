@@ -7,7 +7,7 @@
 }}
 
 <ul>
-{{#each books as |book|}}
-  <li>{{ book.title }}</li>
-{{/each}}
-</ul>
+  {{#each books as |book|}}
+    <li>{{ book.title }} <button {{action removeBook book}}>Remove</button></li>
+  {{/each}}
+  </ul>
